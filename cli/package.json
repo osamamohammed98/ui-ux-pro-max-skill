@@ -11,8 +11,8 @@
     "assets"
   ],
   "scripts": {
-    "build": "bun build src/index.ts --outdir dist --target node",
-    "dev": "bun run src/index.ts",
+    "build": "node init && bun build src/index.ts --outdir dist --target node",
+    "dev": "node init && bun run src/index.ts",
     "prepublishOnly": "bun run build"
   },
   "keywords": [
