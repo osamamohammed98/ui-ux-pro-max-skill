@@ -15,7 +15,6 @@ ENV/
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 
@@ -43,8 +42,6 @@ out/
 .turbo/
 
 # Environment
-.env
-.env.local
 .env.*.local
 
 # Local settings
@@ -57,3 +54,4 @@ ui-ux-pro-max-website/*
 
 cli/playwright-report/
 cli/test-results/
+config.bat
